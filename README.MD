@@ -17,3 +17,7 @@ ESTE PROYECTO ES LA CREACION DE UNA PAGINA WEB DONDE SE PUEDA VER LOS DIFERENTES
 
 ## DESARROLLADO POR 
 *Luis David Castañeda
+*Juan Jose Suarez
+*Maria Fernanda Aguirre
+*samantha Camargo
+*Luis Miguel 
