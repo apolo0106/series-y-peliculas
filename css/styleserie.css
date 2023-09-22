@@ -1,0 +1,13 @@
+#youtube{margin-top: 30%;}
+.yt-container{display: flex;
+display:column;
+width:auto;}
+body{background-color: black;}
+.division{display: flex;
+    margin-top: 20px;
+flex-direction: row;}
+img{max-width: 250px;}
+.youtubebtn{margin-top:2350px;}
+.footer{
+    margin-top:2400px;
+}

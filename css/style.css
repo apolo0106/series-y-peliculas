@@ -10,6 +10,7 @@
 html{
     scroll-behavior: smooth;
 }
+.articulo{color:rgb(18, 241, 241);}
 body{
     background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("../images/hero-page/7.jpg");
     background-position: center;
@@ -17,7 +18,7 @@ body{
     background-repeat: no-repeat;
     height: 130vh;
 }
-header, ul{
+header, #serie-pelis{
     color:rgb(184, 179, 179);
     display: flex;
     height: 10vh;
@@ -69,17 +70,13 @@ margin-top: 50px;
     font-weight: bolder;
 }
 .user{
-    cursor:pointer;
-    color:teal;
+
     margin-top: 40px;
     margin-right: 40px;
 }
 .user a{
     padding: 10px 30px;
-    color: white;
-    background-color: teal;
-    text-decoration: none;
-    border-radius: 10px;
+
 }
 .user a:hover{
     background-color: black;
@@ -687,3 +684,75 @@ margin-left: 120px;
 
 
 }
+
+
+.container {
+    margin-top: 10px;
+    margin-left: 175px;
+    position: absolute;
+    left: 54%;
+    top: 0%;
+    transition: translate(-50%,-50%);
+    padding:10px;
+    float: left;
+
+}
+
+input {
+    outline: none;
+    box-sizing: border-box;
+    height: 28px;
+    width: 40px;
+    margin-left: 0px;
+
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border : 1px solid teal;
+    transition: all .7s ease;
+}
+
+
+::placeholder{
+
+    color: grey;
+    
+}
+
+.btn{position: absolute;
+right:0;
+top:0;
+
+width:60px;
+height:50px;
+background:teal;
+line-height:60px;
+border-radius:50%;
+text-align:center;
+cursor:pointer;
+transition: .5s;}
+
+
+
+.btn i {font-size:25px;
+color: white;
+line-height:40px;
+transition:all .7 ease;
+}
+
+.container:hover input{width:350px}
+.container:hover .btn{margin-right: 0;}
+.container:hover ul li {color:white;
+display:block}
+.container:hover .filtro {display:none;}
+.filtro{
+
+    display:none;
+
+}
+
+#s{margin-left: 20px;}
+
+.articulo{display:none;
+margin-left: 200px;}
+
