@@ -1,0 +1,53 @@
+z #youtube{margin-top: 30%;}
+.yt-container{display: flex;
+display:column;
+width:auto;}
+body{
+  background-color: black;
+}
+.division{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+}
+img{
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.youtubebtn{
+  margin-top:2350px;
+}
+.footer{
+    margin-top:2400px;
+}
+.like p{
+  color: white;
+  font-size: 36px;
+}
+.titulo{
+  font-size: 45px;
+  color: white;
+  padding-left: 37%;
+}
+.estrellas{
+  font-size: 45px;
+  color: white;
+}
+.btn2{
+  margin-top: -30px;
+  margin-left: 150px;
+}
+.btn2 a{
+  font-size: 25px;
+  text-decoration: none;
+  background: teal;
+  margin-left: 37%;
+  border-radius: 10%;
+  color: white;
+
+}
+
+.inside-yt{display:flex;
+flex-direction: row;}
+
