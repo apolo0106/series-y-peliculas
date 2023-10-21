@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+
+    .inside-yt{display: flex;
+    flex-direction: column;}
+
+}

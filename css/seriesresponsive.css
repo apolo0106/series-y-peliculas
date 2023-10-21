@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+
+.division{
+flex-direction: column;}
+.yt-movies{padding-left: 0;
+margin-left: 75px;}
+.yt-container{margin-left: 80px;}
+
+img{width:300px;}
+
+}

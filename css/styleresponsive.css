@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+    body{background-color: black;}
+    /* Adjust styles for tablets here */
+header {display: flex;
+flex-direction: column;}
+
+    .logo{padding-left: 0px;
+    margin-left: 0px;}
+
+    .container{margin-top: 100px;
+        margin-left: 0px;
+    padding-left: 50px;
+    left:10px;
+    }
+
+
+    #categoria{
+margin-top: 100px;
+    margin-left: 30px;}
+
+
+.poster{
+height: 300px;
+
+margin-right: 30px;}
+
+
+img{max-width:400px;}
+
+
+.inside-heropage h1 , p{color: aliceblue;}
+
+.inside-heropage p{
+    width: 400px;
+    padding-right: 100px;}
+
+.btn1{
+    width:350px;
+    margin-top:70px;
+margin-right: 100px;}    
+
+.inside-heropage{max-width:400px;}
+
+.heropage{margin-left: 30px;}
+
+h3{color:aliceblue;}
+
+.latest-movies{margin-top: 110px;}
+.hollywood-movies{margin-top:1130px;}
+.tollywood-movies{margin-top: 3200px;}
+.collywood-movies{margin-top:5270px;}
+.iollywood-movies{margin-top:7075px;}
+.sollywood-movies{margin-top:9150px;}
+.akira{margin-top:11250px;}
+.youtubebtn{margin-top:13150px;
+             padding-top:75px;
+            flex-direction:column;} 
+.inside-footer{margin-top:9725px;
+    background-color: black;}
+.footer{top: 400px;}
+.logopart{max-width: 100px;}
+.logopart h1{margin-left: 30px;}
+.copyright{margin-top:300px;}
+.btn4{padding-top: 400px;}
+.socials{
+    display: flex;
+    flex-direction: column;
+margin-top: 200px;
+}
+
+.latest-container{flex-direction: column;
+}
+
+.hollywood-container{flex-direction:column;}
+
+.tollywood-container{flex-direction: column;}
+
+.collywood-container{flex-direction: column;}
+
+.iollywood-container{flex-direction: column;}
+
+.sollywood-container{flex-direction: column;}
+
+.yt-container{flex-direction: column;}
+
+/* Add any other necessary adjustments for tablet screens */
+}
