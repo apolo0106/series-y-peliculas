@@ -55,9 +55,10 @@ h3{color:aliceblue;}
 .youtubebtn{margin-top:13150px;
              padding-top:75px;
             flex-direction:column;} 
-.inside-footer{margin-top:9725px;
+.inside-footer{margin-top:40px;
     background-color: black;}
-.footer{top: 400px;}
+.footer{top: 400px;
+       margin-top:13700px;}
 .logopart{max-width: 100px;}
 .logopart h1{margin-left: 30px;}
 .copyright{margin-top:300px;}
